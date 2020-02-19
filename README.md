@@ -12,4 +12,7 @@ Gerador de Border Radius para pessoas preguiçosas &lt;3
 <br><br>
 <p>Acesse clicando <a>aqui</a></p>
 <br><br><br><br><br>
-<strong align="center">2020 &copy;</strong>
+
+<p align="center">
+  <strong>2020 &copy;</strong>
+</p>
