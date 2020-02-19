@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Border Radius Generator</title>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="styles.css"/>
+        <script type="text/javascript" src="functions.js"></script>
+    </head>
+
+    <body>
+        <div class="content">   
+            <header>
+                <h1>Border Radius Generator</h1>
+                <br>
+                <p>Made for lazy people <span id="love">&hearts;</span></p>
+            </header>
+
+            <main>
+                <div class="box">
+
+                </div>
+                <div class="ranges">
+                    <div class="row">
+                        <div class="ranges-values">
+                            <label>Radius Top Left: <span class="value">10%</span></label>
+                            <input id="top-left-border" type="range" value="10" min="0" max="50" step="1">
+                        </div>
+                        
+                        <div class="ranges-values">
+                            <label>Radius Top Right: <span class="value">10%</span></label>
+                            <input id="top-right-border" type="range" value="10" min="0" max="50" step="1">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="ranges-values">
+                            <label>Radius Bottom Left: <span class="value">10%</span></label>
+                            <input id="left-bottom-border" type="range" value="10" min="0" max="50" step="1">
+                        </div>
+                        
+                        <div class="ranges-values">
+                            <label>Radius Bottom Right: <span class="value">10%</span></label>
+                            <input id="right-bottom-border" type="range" value="10" min="0" max="50" step="1">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="preview">
+                    <p id="text-copy">
+                        border-radius: 
+                            <span id="top-left-value">10</span>%
+                            <span id="top-right-value">10</span>% 
+                            <span id="bottom-right-value">10</span>% 
+                            <span id="bottom-left-value">10</span>%;
+                    </p>
+
+                    <button onclick="CopyToClipboard()">Copy!</button>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
