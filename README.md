@@ -12,7 +12,7 @@ Gerador de Border Radius para pessoas preguiçosas &lt;3
 </p>
 
 <br><br>
-<h3 style="padding-bottom: 20px">Acesse clicando <a href="https://eschechola.github.io/RadiusGenerator/">aqui</a></h3>
+<h3 style="padding-bottom: 20px">Acesse clicando <a href="http://radiusgenerator-com.umbler.net/>aqui</a></h3>
 <br><br><br><br><br>
 
 <p align="center">
